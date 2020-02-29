@@ -2431,10 +2431,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-lyric2json@^1.0.26:
-  version "1.0.26"
-  resolved "https://registry.npmjs.org/lyric2json/-/lyric2json-1.0.26.tgz#5056587d5fddb08b7414f7728ddbc1979541bf62"
-  integrity sha512-xK52alyKYhwgFaUmUtnxJXW4n8dFEoDAsmc6zkX29/b8uX5KFQpm+GjbHaSW93EgiFcfGYRXhzO+8ijKN4Nu8Q==
+lyric2json@^1.0.27:
+  version "1.0.27"
+  resolved "https://registry.npmjs.org/lyric2json/-/lyric2json-1.0.27.tgz#01ab3df1d6fc1790d8107db474e9c3c65b44b86c"
+  integrity sha512-/coQZDElLaVrGa0TBghJmPu1Sx4CtqH2o0BYa91t4S/Uqj3Q52VyDNqfoWq5KUYnrwHhuMHEmgyyoNz6aB59/g==
   dependencies:
     js-base64 "^2.5.2"
 
@@ -3247,13 +3247,13 @@ react-is@^16.8.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
 
-react-music-widget@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/react-music-widget/-/react-music-widget-0.0.6.tgz#f7a8d4d52573aab61351dc4929403c5a6aacb22d"
-  integrity sha512-2/kYBvrTHiEX1SyELi2lyidjLJ5wZNY0KU3fpkxPXZcIWU1iOzJ2LAf7F5r8UpgQNx8wu7uaX3ltFeIIwMqp2g==
+react-music-widget@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/react-music-widget/-/react-music-widget-0.0.7.tgz#65a590f742a23ac9651d9c6c31c50a2274e8a4c4"
+  integrity sha512-3DFrvsKpzERvTiV4H1XDPWIMqmT0oSsHgY4DEffymoljzcJnQ9SDUMga9QggmvShKalt4k1gAbhpFcuNw7W9zw==
   dependencies:
     js-base64 "^2.5.2"
-    lyric2json "^1.0.26"
+    lyric2json "^1.0.27"
 
 react-transition-group@^4.3.0:
   version "4.3.0"

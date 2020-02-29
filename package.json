@@ -14,7 +14,7 @@
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-music-widget": "^0.0.6",
+    "react-music-widget": "^0.0.7",
     "react-transition-group": "^4.3.0",
     "sass-loader": "^8.0.2",
     "webpack": "^4.41.6",
