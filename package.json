@@ -1,0 +1,24 @@
+{
+  "name": "yuhengshen.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuhengshen/yuhengshen.github.io.git",
+  "author": "yuhengshen <yuhengshen@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "animejs": "^3.1.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-music-widget": "^0.0.6",
+    "react-transition-group": "^4.3.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2"
+  }
+}
