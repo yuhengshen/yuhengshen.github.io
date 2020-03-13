@@ -1,0 +1,275 @@
+html, body {
+    margin: 0;
+}
+
+html {
+    padding: 1em 0;
+    background: rgba(0, 0, 0, .2);
+}
+
+a {
+    color: #3498db;
+}
+
+@media print {
+    html {
+        padding: 0;
+        background: #f7f7f7;
+    }
+    body {
+        height: 59.4cm;
+    }
+
+    .skills {
+        padding-top: 2rem;
+        page-break-before: always;
+    }
+}
+
+body {
+    width: 21cm;
+    margin: 0 auto;
+    padding: .5rem 1.5rem;
+    background: #f7f7f7;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body::before, body::after {
+    content: '';
+    display: block;
+    background: #254667;
+    position: absolute;
+    bottom: 0;
+}
+body::before {
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+body::after {
+    width: 90%;
+    left: 5%;
+    height: .5rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    padding-right: .5em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 20px;
+    padding-bottom: .2em;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+h4, .content div {
+    font-size: 14px;
+}
+
+html {
+    font-size: 14px;
+}
+
+.banner {
+    position: absolute;
+    display: flex;
+    top: 1rem;
+    left: 0;
+    height: 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.banner::before, .banner::after {
+    display: block;
+    content: '';
+    top: 0;
+    background: #254667;
+}
+
+.banner::before {
+    width: 8%;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
+
+.banner::after {
+    left: auto;
+    right: 0;
+    width: 90%;
+    clip-path: polygon(3px 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+.wrapper {
+    padding-top: 1em;
+}
+
+h1 {
+    position: relative;
+    overflow: hidden;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 1em;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #70a1ff;
+    opacity: .2;
+}
+
+
+ul {
+    padding-left: 2rem;
+    margin: 0;
+}
+
+
+.info > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info__item span {
+    width: 165px;
+    white-space: nowrap;
+}
+
+.info__item span:nth-child(2) {
+    width: 245px;
+}
+
+span.left {
+    font-size: 14px;
+    float: right;
+    opacity: .4;
+}
+
+.charts {
+    width: 500px;
+    height: 220px;
+    position: relative;
+}
+
+h1, h2, h3, h4, p {
+    margin: .5rem 0;
+    line-height: 1.5;
+}
+
+.mobile {display: none}
+
+.skills__wrapper {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+    html {
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    span.left {
+        display: block;
+        float: none;
+        font-size: 12px;
+    }
+
+    .charts {
+        width: 100%;
+    }
+
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    .mobile span {
+        white-space: nowrap;
+    }
+
+    .skills__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .charts {
+        width: 500px;
+        height: 240px;
+        position: relative;
+    }
+
+}
+
+strong {
+    color: #e67e22;
+    font-weight: normal;
+}
+
+.avatar {
+    margin-left: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    width: 2.5cm;
+    height: 3.5cm;
+}
+
+.avatar::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: rotate(8deg);
+    background: rgba(0,0,0,.1);
+    z-index: 1;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .1);
+}
+
+.avatar::after {
+    content: '';
+    box-sizing: border-box;
+    border: 2px solid #eeeeee;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("./cv.jpg") no-repeat center;
+    background-origin: content-box;
+    background-size: cover;
+    z-index: 2;
+}
