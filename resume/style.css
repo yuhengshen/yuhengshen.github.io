@@ -173,9 +173,10 @@ span.left {
 }
 
 .charts {
-    width: 500px;
+    width: 540px;
     height: 220px;
     position: relative;
+    left: -10px;
 }
 
 h1, h2, h3, h4, p {
@@ -202,10 +203,6 @@ h1, h2, h3, h4, p {
         display: block;
         float: none;
         font-size: 12px;
-    }
-
-    .charts {
-        width: 100%;
     }
 
     .pc {
@@ -272,4 +269,11 @@ strong {
     background-origin: content-box;
     background-size: cover;
     z-index: 2;
+}
+
+code {
+    background-color: rgba(0, 0, 0, .05);
+    padding: .2rem;
+    border-radius: .3rem;
+    margin: 0 .2rem;
 }
