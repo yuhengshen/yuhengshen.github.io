@@ -78,7 +78,7 @@ h3 {
 }
 
 
-h4, .content div {
+h4, p, div {
     font-size: 14px;
 }
 
@@ -140,10 +140,14 @@ h1::after {
 
 
 ul {
-    padding-left: 2rem;
     margin: 0;
+    padding: 0;
 }
 
+
+section > div {
+    margin-left: 2rem;
+}
 
 .info > div {
     display: flex;
@@ -191,6 +195,10 @@ h1, h2, h3, h4, p {
     align-items: center;
 }
 @media screen and (max-width: 800px) {
+    h1, h2, h3, h4, p {
+        margin: .5rem 0;
+        line-height: 1.7;
+    }
     html {
         padding: 0;
     }
