@@ -9,7 +9,7 @@ const musicList = [{
     name: '最美的期待-周笔畅'
 
 }]
-ReactDOM.render(<Player musicList={musicList} position={'bottom'} />, div)
+ReactDOM.render(<Player musicList={musicList} autoPlay={false} position={'bottom'} auto />, div)
 document.body.appendChild(div)
 
 document.body.style.background = "linear-gradient(45deg, #3498db, #9b59b6)"
