@@ -20,7 +20,7 @@ var option = {
             {name: 'JS', max: 100, nameTextStyle: {fontSize: 8}},
             {name: 'VUE', max: 100, nameTextStyle: {fontSize: 8}},
             {name: 'REACT', max: 100, nameTextStyle: {fontSize: 8}},
-            {name: 'WEBPACK', max: 100, nameTextStyle: {fontSize: 8}}
+            {name: 'NODE', max: 100, nameTextStyle: {fontSize: 8}}
         ]
     },
     series: [{
