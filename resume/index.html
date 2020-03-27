@@ -35,6 +35,29 @@
             <div class="avatar"></div>
         </div>
     </section>
+
+    <section class="skills">
+        <h1>
+            <svg class="icon">
+                <use xlink:href="#icon-skill_entity"></use>
+            </svg>
+            掌握技能
+        </h1>
+        <div class="skills__wrapper">
+            <ul>
+                <li>基础技能：熟练掌握ES6，HTML5，CSS3，SASS。对JS闭包、原型、回调、异步、面向对象有充分的认识，能依据设计稿精确还原页面，对前端优化有一定见解。</li>
+                <li>
+                    前端框架：熟练应用vue及相关生态，了解虚拟DOM、数据动态响应、生命周期等关键原理，能开发高通用的vue组件；了解react+typescript组合开发。
+                </li>
+                <li>依赖工具：熟悉webpack，babel，eslint等工具的配置及使用。能使用和配置常用脚手架。</li>
+                <li>版本管理：熟悉git常用命令，有项目协同开发经验。</li>
+                <li>开放平台：熟悉微信小程序开发，了解hybrid开发。</li>
+                <li>其他：熟悉animejs、animation.css等动画库。了解node、java等后端语言。
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <section class="experience">
         <h1>
             <svg class="icon">
@@ -43,10 +66,10 @@
             工作经历
         </h1>
         <div>
-            <h2><span class="inc">东海蓝帆（宁波）</span> - <span class="position">前端开发</span><span
-                    class="left">2018年10月-2019年6月</span>
-            </h2>
-            <h3>工作描述</h3>
+            <h3><span class="inc">东海蓝帆（宁波）</span> - <span class="position">前端开发</span><span
+                    class="right">2018年10月-2019年6月</span>
+            </h3>
+            <h4>工作描述</h4>
             <p class="content">
                 1. 参与需求评估，推动技术落地。<br/>
                 2. 搭建基础开发环境和脚手架，对业务组件进行封装。<br/>
@@ -64,30 +87,28 @@
         <div>
 
             <h4>Mando U8综合系统（PC端）</h4>
-            <!--                项目-->
+            <!--项目-->
             <p>
                 项目介绍：综合型企业管理系统，包括企业资源管理，供应商质量管理，客户服务管理，文件共享等。
             </p>
             <p>技术栈：vue，vuex，vue-router，element-ui，axios，jsonwebtoken，webpack，echarts。</p>
-            <p>我的工作：1. 设计系统的路由逻辑，自动注入sidebar 菜单。2. 实现路由和 button 级别权限管理。3. 接入通知和邮件系统，统一消息管理。4. 优化构件，提升资源加载速度。5.
-                其他功能页面编写。</p>
+            <p>我的工作：1. 设计系统的路由逻辑，自动注入sidebar 菜单。2. 实现路由和 button 级别权限管理。3. 接入通知和邮件系统，统一消息管理。4. 优化构建工具，提升资源加载速度。5. 其他功能页面编写。</p>
             <!-- 项目-->
             <h4>道云文件（PC端）</h4>
-            <p>项目介绍：帮助企业共享和管理文件的后台应用。</p>
+            <p>项目介绍：帮助企业共享和下载文件的后台网盘应用。</p>
             <p>技术栈：vue，vuex，vue-router，iview。</p>
-            <p>我的工作：1. 实现基本的UI和逻辑交互。2. 优化文件传输逻辑，采用并发、异步上传的方式，提升文件上传的速度。3. 编写可复用mixin、directive等共用模块。</p>
+            <p>我的工作：1. 实现基本的UI和逻辑交互。2. 优化文件传输逻辑，采用Promise并发和异步上传的方式，提升文件上传的速度。3. 编写可复用mixin、directive等共用模块。</p>
             <h4>TONGUE-英语口语（小程序端）</h4>
             <p>
                 项目介绍：一款英语短视频的在线教育应用。
             </p>
             <p>技术栈：小程序，Vant，iconfont。</p>
             <p>
-                我的工作：1. 管理用户的登录状态，并与App端的进行关联和同步。2. 绘制主要页面，包含Feed流、用户信息、视频详情、评论、打卡、单词卡片等。3. 关键单词添加单词表并在字幕内定位。4.
-                调用微信平台原生接口，实现音频评论和口语发音评分等。
+                我的工作：1. 管理用户的登录状态，并与App端的进行关联和同步。2. 绘制主要页面，包含Feed流、用户信息、视频详情、评论、打卡、单词卡片等。3. 关键单词添加单词表并在字幕内定位。4. 调用微信平台原生接口，实现音频评论和口语发音评分等。
             </p>
         </div>
     </section>
-    <section class="open">
+    <section class="open print-break-before">
         <h1>
             <svg class="icon">
                 <use xlink:href="#icon-github"></use>
@@ -95,43 +116,21 @@
             开源项目及作品
         </h1>
         <div>
-            <h4>redux-music-widget <span class="left">2020年1月-2020年2月</span></h4>
-            <p>这是一款基于<strong>react</strong>和<strong>typescript</strong>的音乐播放组件。</p>
+            <h4>redux-music-widget <span class="right">2020年1月-2020年2月</span></h4>
+            <p>这是一款基于react和typescript的音乐播放组件。</p>
             <p>
                 功能包含了歌词获取、播放控制、歌词控制等常用功能。项目中大量使用 react hooks。
             </p>
-            <p>该项目是我对react hooks及其相关内容的实践，让我对hooks有了深刻的理解和应用。该项目同时也使用了<strong>animejs</strong>来管理动画，与<strong>animation.css</strong>配合使用，即可编写出高质量的动画特效。
+            <p>该项目是我对react hooks及其相关内容的实践，让我对hooks有了深刻的理解和应用。该项目同时也使用了animejs来管理动画，与animation.css配合使用，即可编写出高质量的动画特效。
             </p>
             <p>
                 项目地址：<a
                     href="https://github.com/yuhengshen/react-music-widget">https://github.com/yuhengshen/react-music-widget</a>。
             </p>
-            <h4>现代JavaScript教程 <span class="left">2020年3月-2020年3月</span></h4>
+            <h4>现代JavaScript教程 <span class="right">2020年3月-2020年3月</span></h4>
             <p>
                 参与了<a href="https://zh.javascript.info">《现代JavaScript教程》</a>的翻译。
             </p>
-        </div>
-    </section>
-    <section class="skills">
-        <h1>
-            <svg class="icon">
-                <use xlink:href="#icon-skill_entity"></use>
-            </svg>
-            掌握技能
-        </h1>
-        <div class="skills__wrapper">
-            <ul>
-                <li>基础技能：熟练掌握ES6，HTML5，CSS3。对JS闭包、原型、回调、异步、面向对象有充分的认识，能依据设计稿精确还原页面，对前端优化有一定见解。</li>
-                <li>
-                    前端框架：熟练应用<strong>vue</strong>及相关生态，了解虚拟DOM、数据动态响应、生命周期等关键原理，能开发高通用的vue组件；熟悉react+<strong>typescript</strong>组合开发。
-                </li>
-                <li>依赖工具：熟悉<strong>webpack</strong>，babel，eslint等工具的配置及使用。能使用和配置常用脚手架。</li>
-                <li>版本管理：熟悉git常用命令，有项目<strong>协同开发</strong>经验。</li>
-                <li>开放平台：熟悉微信小程序开发。</li>
-                <li>其他：熟悉<strong>animejs</strong>、<strong>animation.css</strong>等动画库；熟练使用<strong>sass</strong>编写BEM规范样式代码。了解node、java等后端语言。
-                </li>
-            </ul>
-            <div class="charts"></div>
         </div>
     </section>
     <section>
@@ -142,13 +141,12 @@
             教育经历
         </h1>
         <div>
-            <h2>西华大学 <span class="left">2014年7月-2018年7月</span></h2>
-            <p>汽车服务工程 本科 <span class="left">成都郫县</span></p>
+            <h3>西华大学 <span class="right">2014年7月-2018年7月</span></h3>
+            <p>汽车服务工程 本科 <span class="right">成都郫县</span></p>
         </div>
     </section>
 
 </div>
-<script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
 <script src="./index.js"></script>
 </body>
 
