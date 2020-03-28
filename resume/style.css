@@ -5,6 +5,7 @@ html, body {
 html {
     padding: 1em 0;
     background: rgba(0, 0, 0, .2);
+    font-family: '微软雅黑', Calibri, sans-serif;
 }
 
 a {
@@ -12,6 +13,9 @@ a {
     text-decoration-line: none;
 }
 
+ol, ul {
+    margin: 0;
+}
 
 body {
     width: 21cm;
@@ -127,9 +131,9 @@ h1::after {
 }
 
 
-ul {
+ul, ol {
     margin: 0;
-    padding: 0;
+    padding-left: 2em;
 }
 
 
