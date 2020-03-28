@@ -3240,10 +3240,10 @@ react-is@^16.8.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
 
-react-music-widget@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/react-music-widget/-/react-music-widget-0.0.8.tgz#542071c4d811d29258917f7c272477def65b7d67"
-  integrity sha512-uDLDFfIeBhAOzQbfvN+X93rCinyqSmFKj1x8haPSRohB74YPFGNT+BEYYsiIC/sX9QBA6CkGC4ueL9Kb3l1T8g==
+react-music-widget@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.npm.taobao.org/react-music-widget/download/react-music-widget-0.0.9.tgz?cache=0&sync_timestamp=1585420697217&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-music-widget%2Fdownload%2Freact-music-widget-0.0.9.tgz#1936c2c558a2c96401cbe702fff5a68e59e77081"
+  integrity sha1-GTbCxViiyWQBy+cC//WmjlnncIE=
 
 react-transition-group@^4.3.0:
   version "4.3.0"
